@@ -1,0 +1,240 @@
+body{
+    /* font-family: 'Poppins', sans-serif; */
+overflow-x: hidden;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Viga', sans-serif;
+
+}
+.logo{
+    font-family: 'Viga', sans-serif;
+}
+.logo-font{
+    font-size: 24px;
+
+}
+.weight{
+    font-weight: 500;
+    font-family: 'Viga', sans-serif;
+}
+.anchor{
+    color: white    ;
+}
+.anchor:hover, .link-col:hover{
+    color:  #bf925b;
+    text-decoration: none;
+}
+.hero-section{
+    position: relative;
+    top: 80px;
+}
+.btn-primary{
+    border:3px solid #bf925b;
+    background-color:transparent;
+    color: #bf925b;
+}
+.btn-primary:hover{
+    background-color: #bf925b;
+    border:3px solid #bf925b;
+}
+
+header{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(../images/Background/bg-2.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+.img1{
+    background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../images/Background/formen.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    background: url(../images/Background/forwomen.jpg);
+    height: 400px;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.about-us h3{
+    font-weight: 400;
+    line-height: 1.1;
+}
+.box{
+    height: 300px;
+    border: 2px solid #bf925b;
+    
+}
+.orange{
+    color: #bf925b;
+}
+.bottom-border{
+    border-bottom: 1px solid #bf925b;
+}
+.services{
+    background-color: antiquewhite;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+.booking{
+    padding-top: 90px;
+    padding-bottom: 107px;
+    background-color: #ebe8de !important;;
+
+}
+.makeup-team{
+    padding-top: 87px;
+    padding-bottom: 87px;
+}
+.bg{
+    background-color: #333333;
+}
+.new{
+    width: 98%;
+    border: 2px solid #bf925b;
+    border-radius: 5px;
+
+}
+.link-col{
+    color: #bf925b;
+    font-weight: 700;
+    letter-spacing: 1px;
+   
+}
+.link-col-2{
+    color: #bf925b;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+.h1{
+    font-size: 5vw;
+}
+.h3{
+    color: #563b4c;
+    font-weight: 900;
+}
+.back{
+    background-color: #ebe8de;
+}
+.serv-h2{
+    font-size: 44px;
+    font-weight: 900;
+}
+.para{
+    color: gray;
+    
+}
+.margin-top{
+    padding-top: 32px;
+}
+.price{
+    padding-top: 70px;
+    padding-bottom: 88px;
+}
+.form-control{
+    border: 2px solid #bf925b;
+   
+}
+.form-control:hover{
+    border: 2px solid #bf925b;
+}
+.offer{
+    padding: 10px 10px;
+    background: #bf925b;
+    border: 2px solid #bf925b;
+    border-radius: 30px;
+    position: relative;
+    top:25px;
+    color: white;
+
+}
+.offer:hover{
+    color: white;
+    text-decoration: none;
+}
+.images{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.rounded-circle{
+    width: 100%;
+    height: 100%;
+}
+.social-link{
+    width: 50px; 
+    height: 50px;
+    border-radius: 50%;
+    background-color:rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.gol{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+
+}
+.test-name{
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    margin-top: 16px;
+}
+.test-design{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.footer-p{
+    color: rgba(255, 255, 255, 0.7);
+}
+.copyright{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.footer{
+    background-color: #333333;
+}
+.icon{
+    font-size: 21px;
+}
+.footer-p:hover{
+    text-decoration: none;
+    color: white;
+}
+@media (min-width:320px) and (max-width:767px){
+    .serv-h2{
+        font-size: 43px;
+    }
+}
+@media (max-width:991px){
+    #linkss{
+        position:absolute;
+        width: 100%;
+        height:358px;
+        background-color: black;
+        top: 80px;
+        right:0px;
+        display: none;
+        text-align:left;
+        transition: all 0.5s;
+        z-index: 1;
+    }
+    .toggle li{
+        margin-top: 30px;
+    }
+
+    
+    
+    }
